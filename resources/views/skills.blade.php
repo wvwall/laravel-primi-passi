@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
-</head>
+
 <style>
     * {
         margin: 0;
@@ -38,7 +29,7 @@
         text-decoration: none;
         color: #0CD977;
     }
-    .nav ul li .active {
+    .nav ul li .active-ski {
         text-decoration: none;
         color: black;
     }
@@ -56,20 +47,11 @@
         color: #0CD977;
     }
 </style>
-<body>
-<div class="nav">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/chi-sono">Chi sono</a></li>
-            <li><a href="/skills" class="active">Skills</a></li>
-        </ul>
-    </div>
-    <main>
-    <main>
+
+@extends('layouts.app')
+
+    @section('main')
         <div class="hello">
         <h1>COMING <br> SOON <span class="dot">.</span></h1>
         </div>
-    </main>
-    </main>
-</body>
-</html>
+    @endsection
