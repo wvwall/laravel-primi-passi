@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
-<body>
+<body style="background-color: #eceff1;">
     <div class="nav">
         <ul>
             <li><a href="/" class="active-home">Home</a></li>
